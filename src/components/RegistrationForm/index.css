@@ -1,0 +1,154 @@
+.registeration-container {
+  background-color: #ffffff;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  padding: 2%;
+  font-family: 'Roboto';
+}
+
+.heading {
+  color: #ea580c;
+  font-size: 35px;
+  margin-bottom: 45px;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 767px) {
+  .heading {
+    font-size: 55px;
+  }
+}
+
+.registeration-form {
+  width: 70%;
+}
+
+@media screen and (min-width: 767px) {
+  .registeration-form {
+    border-radius: 12px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    padding: 50px;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  color: #475569;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.input-field {
+  cursor: pointer;
+  height: 38px;
+  border: solid 1px #cbd2d9;
+  border-radius: 5px;
+  padding: 8px 14px;
+  font-size: 22px;
+  color: #9aa5b1;
+}
+
+@media screen and (min-width: 767px) {
+  .input-field {
+    height: 50px;
+  }
+}
+
+.input-field-err {
+  border-color: #ff0b37;
+  background-color: #fef2f4;
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+.submisson-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  gap: 20px;
+}
+
+@media screen and (min-width: 767px) {
+  .submisson-card {
+    border-radius: 12px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    padding: 50px;
+  }
+} 
+
+.successful-img {
+  width: 90px;
+}
+
+.successful-msg {
+  color: #475569;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.button-card {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.submit-button {
+  cursor: pointer;
+  margin-top: 10px;
+  border-width: 0;
+  border-radius: 9px;
+  background-color: #ea580c;
+  color: #ffffff;
+  width: 100%;
+  height: 39px;
+  font-size: 16px;
+}
+
+.submit-button:focus {
+  outline: none;
+}
+
+.submit-another-response {
+  cursor: pointer;
+  margin-top: 10px;
+  border-width: 0;
+  border-radius: 9px;
+  background-color: #ea580c;
+  color: #ffffff;
+  width: 100%;
+  height: 39px;
+  font-size: 16px;
+}
+
+.submit-another-response:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 767px) {
+  .submit-button {
+    width: 18%;
+  }
+  .submit-another-response {
+    width: 36%;
+  }
+}
+
+.error-msg {
+  margin-top: 6px;
+  color: #ff0b37;
+  font-size: 15px;
+}
